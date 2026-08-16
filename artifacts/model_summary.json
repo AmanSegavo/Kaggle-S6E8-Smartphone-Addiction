@@ -1,0 +1,54 @@
+{
+  "timestamp": "20260816_063841",
+  "n_splits": 5,
+  "seed": 42,
+  "device": "GPU (CUDA)",
+  "lgb_oof_auc": 0.963499,
+  "xgb_oof_auc": 0.962297,
+  "cb_oof_auc": 0.95407,
+  "auc_avg": 0.961669,
+  "auc_weighted": 0.961683,
+  "auc_rank": 0.961481,
+  "ensemble_method": "Weighted Average",
+  "final_oof_auc": 0.961683,
+  "weights": {
+    "lgb": 0.335,
+    "xgb": 0.334,
+    "cb": 0.331
+  },
+  "lgb_fold_scores": [
+    0.962629,
+    0.963398,
+    0.9638,
+    0.964442,
+    0.963237
+  ],
+  "xgb_fold_scores": [
+    0.961587,
+    0.962222,
+    0.962388,
+    0.963255,
+    0.96204
+  ],
+  "cb_fold_scores": [
+    0.953252,
+    0.953713,
+    0.954597,
+    0.954938,
+    0.95385
+  ],
+  "features_used": [
+    "age",
+    "daily_screen_time_hours",
+    "social_media_hours",
+    "gaming_hours",
+    "work_study_hours",
+    "sleep_hours",
+    "notifications_per_day",
+    "app_opens_per_day",
+    "weekend_screen_time",
+    "gender",
+    "stress_level",
+    "academic_work_impact"
+  ]
+}
